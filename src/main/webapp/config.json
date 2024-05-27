@@ -1,0 +1,35 @@
+{
+  "displayName" : "ImageZoomFlip",
+  "group" : "",
+  "iconUrl" : "/resources/images/imagelists/prefab-icon.png",
+  "resources" : {
+    "styles" : [ "/resources/jquery.magnify.css", "/resources/magnifyflip.css" ],
+    "scripts" : [ "/resources/jquery.magnify.js", "/resources/panzoom.min.js" ]
+  },
+  "properties" : {
+    "dataset" : {
+      "type" : "object",
+      "displayName" : "Images dataset",
+      "description" : "Images dataset expects thumbnailUrl and mainUrl as key value pairs",
+      "bindable" : "in-bound",
+      "isList" : true,
+      "value" : "bind:Variables.imagesDataset.dataSet",
+      "widget" : "string",
+      "show" : true,
+      "showAt" : "",
+      "disabled" : false
+    },
+    "thumbnailclass" : {
+      "type" : "string",
+      "displayName" : "Thumbnail class",
+      "description" : "Thumbnail class",
+      "bindable" : "in-bound",
+      "widget" : "string",
+      "show" : true,
+      "showAt" : "",
+      "disabled" : false
+    }
+  },
+  "events" : { },
+  "methods" : { }
+}

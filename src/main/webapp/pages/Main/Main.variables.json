@@ -1,0 +1,35 @@
+{
+  "imagesDataset" : {
+    "_id" : "wm-imagesDataset-wm.Variable-1716267727820",
+    "name" : "imagesDataset",
+    "owner" : "Page",
+    "category" : "wm.Variable",
+    "dataBinding" : [ ],
+    "dataSet" : [ {
+      "thumbnailUrl" : "https://farm1.staticflickr.com/4160/34418397675_18de1f7b9f_z.jpg",
+      "mainUrl" : "https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"
+    }, {
+      "thumbnailUrl" : "https://farm5.staticflickr.com/4267/34162425794_1430f38362_z.jpg",
+      "mainUrl" : "https://www.gstatic.com/webp/gallery3/1.sm.png"
+    }, {
+      "thumbnailUrl" : "https://mediaindia.eu/wp-content/uploads/2018/06/02-683x1024.jpg",
+      "mainUrl" : "https://mediaindia.eu/wp-content/uploads/2018/06/02-683x1024.jpg"
+    } ],
+    "type" : "entry",
+    "isList" : true,
+    "twoWayBinding" : false,
+    "saveInPhonegap" : false
+  },
+  "supportedLocale" : {
+    "_id" : "wm-wm.Variable1402640443182",
+    "name" : "supportedLocale",
+    "owner" : "Page",
+    "category" : "wm.Variable",
+    "dataSet" : {
+      "en" : "English"
+    },
+    "type" : "string",
+    "isList" : false,
+    "saveInPhonegap" : false
+  }
+}
