@@ -4,10 +4,10 @@
 ## Panzoom 
     Panzoom is a small library to add panning and zooming functionality to an element. Rather than using absolute positioning or setting width and height
     
-##Installation
+## Installation
 You can include jquery.magnify.js and panzoom.min.js in your project by downloading it and hosting it locally in resources
 
-##Getting Started
+## Getting Started
     Step 1: Link the required files
         <link rel="stylesheet" href="/css/magnify.css">
         <script src="/js/jquery.magnify.js"></script>
@@ -25,7 +25,7 @@ You can include jquery.magnify.js and panzoom.min.js in your project by download
             });
         </script>  
 
-##Options 
+## Options 
     data-magnify-src - equivalent to src
     data-magnify-speed - equivalent to speed
     data-magnify-timeout - equivalent to timeout
@@ -38,7 +38,7 @@ You can include jquery.magnify.js and panzoom.min.js in your project by download
     data-magnify-mobilecloseevent - equivalent to mobileCloseEvent
     data-magnify-afterload - equivalent to afterLoad, except the value must be a declared function name
 
-##Events
+## Events
     Magnify triggers two custom events on the html element: magnifystart when you enter zoom mode and magnifyend when you exit zoom mode. Example:
         $('html').on({
             magnifystart: function() {
